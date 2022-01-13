@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* flex section */
+.flex {
+    display: flex;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    /* justify-content: left;
+     */
+}
+
+/* right and left profile*/
+
+.profileleft {
+    height: 100vh;
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+}
+
+.profileright {
+    height: 100vh;
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-purple {
+    /* background-color: purple; */
+    background: linear-gradient(112deg, rgb(184, 14, 184), rgb(255, 165, 0));
+}
+
+.bg-white {
+    background-color: rgb(240, 173, 48);
+}
+
+.line{
+    border-bottom: 4px dashed #6a4caf;
+    position: absolute;
+    left: 240px;
+    bottom: 190px;
+    width: 100px;
+    
+}
+
+/* profile picture and info */
+.profilepicture {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    z-index: 3;
+    
+}
+
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: thistle;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+/*button section*/
+.btn-left {
+  background-color: #4c56af; 
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 35px;
+}
+.btn-right {
+    background-color: rgb(240, 173, 48); 
+    border-radius: 15px;
+    color: #4c56af;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 25px;
+
+}
+
+.btn-right:hover {
+    background-color: #4c56af;
+    color:rgb(240, 173, 48) ;
+}
+
+.btn-left:hover {
+    background-color:rgb(240, 173, 48);
+    color: #4c56af ;
+}
+
+
+/* right section */
+h1 {
+    color: rgb(214, 104, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+     color: rgb(214, 104, 104);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+}
+h3 {
+    color: indigo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.paragraphe {
+    color:indigo;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    text-align: justify;
+}
+
+/* img logo and burger*/
+
+.img{
+    border-radius: 10px 10px;
+    box-shadow: .25em .25em 1em hsl(285, 5%, 15%);
+    /* box-shadow: -1px 2px 0 hsl(41, 79%, 50%) */
+}
+
+.imglogo {
+    position: relative;
+    right: 8%;
+    bottom: 6%;
+}
+
+.burger {
+    color: indigo;
+    font-size: 28px;
+    position: relative;
+    bottom: 42%;
+    left: 30%;
+}
+
+.intro {
+    margin-left: 50px;
+}
